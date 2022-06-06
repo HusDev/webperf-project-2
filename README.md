@@ -42,7 +42,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 
 **General requirements:**
 - [x] Get rid of duplicate lodash in our bundles.
-- [ ] Switch to tree-shared lodash imports.
+- [x] Switch to tree-shared lodash imports.
 - [ ] Code-split each route to have its own bundle.
 ** Frontpage requirements: **
 - [ ] Use `contain` and `content-visibility` for “everything” below the fold. 
