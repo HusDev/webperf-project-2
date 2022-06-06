@@ -41,7 +41,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 ## Tasks
 
 **General requirements:**
-- [ ] Get rid of duplicate lodash in our bundles.
+- [x] Get rid of duplicate lodash in our bundles.
 - [ ] Switch to tree-shared lodash imports.
 - [ ] Code-split each route to have its own bundle.
 ** Frontpage requirements: **
