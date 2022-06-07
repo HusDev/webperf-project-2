@@ -46,7 +46,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x] Code-split each route to have its own bundle.
 ** Frontpage requirements: **
 - [x] Use `contain` and `content-visibility` for “everything” below the fold. 
-- [ ] Fix layout shifting of the hero image with HTML/CSS.
+- [x] Fix layout shifting of the hero image with HTML/CSS.
 - [ ] Don’t lazy load the Hero section (Fix JS waterfall).
 - [ ] Lazy load the entire Form component.
 - [ ] Only load the phone number validation if I’m actually interacting with the form.
