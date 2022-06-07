@@ -93,6 +93,7 @@
 
 .entity {
   position: absolute;
+  will-change: transform; /* for performance */
 }
 
 .entityShot {
