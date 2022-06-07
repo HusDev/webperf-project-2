@@ -53,7 +53,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x] Replace moment.js with a smaller date library (which supports tree-shaking?).
 - [ ] Ignore side-effects in the News component.
 ** Videogame requirements: **
-- [ ]  Move entities with transform instead of left/top (so it can skip layout/paint).
+- [x]  Move entities with transform instead of left/top (so it can skip layout/paint).
 - [ ]  Create GPU layers for all entities so they composite on the GPU (“will-change”).
 - [ ]  Improve removeDeadEntities to be O(n) instead of O(n^2).
 - [ ]  Get rid of unnecessary re-paints in the game “status” element (in the corner).

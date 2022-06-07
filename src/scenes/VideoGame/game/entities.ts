@@ -15,8 +15,7 @@ export function createEnemy(enemySpawn: EnemySpawn, spawnTime: number): Entity {
 
   const el = document.createElement("div");
   el.className = classnames(s.entity, s.entityEnemy, s[`entityEnemy${style}`]);
-  el.style.left = `${x}px`;
-  el.style.top = `${y}px`;
+  el.style.transform = `translate(${x}px, ${y}px)`;
 
   return {
     type: "enemy",
@@ -39,8 +38,7 @@ export function createShot(barrelAngle: number): Entity {
   };
   const el = document.createElement("div");
   el.className = classnames(s.entity, s.entityShot);
-  el.style.left = `${x}px`;
-  el.style.top = `${y}px`;
+  el.style.transform = `translate(${x}px, ${y}px)`;
 
   return {
     type: "shot",
