@@ -45,7 +45,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x] Switch to tree-shared lodash imports.
 - [x] Code-split each route to have its own bundle.
 ** Frontpage requirements: **
-- [ ] Use `contain` and `content-visibility` for “everything” below the fold. 
+- [x] Use `contain` and `content-visibility` for “everything” below the fold. 
 - [ ] Fix layout shifting of the hero image with HTML/CSS.
 - [ ] Don’t lazy load the Hero section (Fix JS waterfall).
 - [ ] Lazy load the entire Form component.
