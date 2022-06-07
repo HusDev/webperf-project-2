@@ -48,7 +48,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x] Use `contain` and `content-visibility` for “everything” below the fold. 
 - [x] Fix layout shifting of the hero image with HTML/CSS.
 - [x] Don’t lazy load the Hero section (Fix JS waterfall).
-- [ ] Lazy load the entire Form component.
+- [x] Lazy load the entire Form component.
 - [ ] Only load the phone number validation if I’m actually interacting with the form.
 - [ ] Replace moment.js with a smaller date library (which supports tree-shaking?).
 - [ ] Ignore side-effects in the News component.
