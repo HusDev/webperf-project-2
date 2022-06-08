@@ -56,7 +56,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x]  Move entities with transform instead of left/top (so it can skip layout/paint).
 - [x]  Create GPU layers for all entities so they composite on the GPU (“will-change”).
 - [x]  Improve removeDeadEntities to be O(n) instead of O(n^2).
-- [ ]  Get rid of unnecessary re-paints in the game “status” element (in the corner).
+- [x]  Get rid of unnecessary re-paints in the game “status” element (in the corner).
 - [ ]  Eliminate constant repaints when switching between levels. Don’t animate background-color. Instead animate opacity of 2 differently coloured elements.
 - [x]  Optimise game elements with `contain` style.
 - [ ]  Get rid of forced reflows when moving entities (don’t read and write constantly, either store locations in JS or batch the reads/writes).
