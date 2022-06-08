@@ -1,6 +1,7 @@
 {
   "name": "webperf-project-2",
   "version": "1.0.0",
+  "sideEffects": false,
   "description": "React example starter project",
   "keywords": [
     "react",

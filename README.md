@@ -51,7 +51,7 @@ Your solution should be yours alone. You are welcome and encouraged to support y
 - [x] Lazy load the entire Form component.
 - [ ] Only load the phone number validation if I’m actually interacting with the form.
 - [x] Replace moment.js with a smaller date library (which supports tree-shaking?).
-- [ ] Ignore side-effects in the News component.
+- [x] Ignore side-effects in the News component.
 ** Videogame requirements: **
 - [x]  Move entities with transform instead of left/top (so it can skip layout/paint).
 - [x]  Create GPU layers for all entities so they composite on the GPU (“will-change”).
