@@ -1,8 +1,7 @@
 import { useForm, Controller } from "react-hook-form";
-import { PhoneNumber, PhoneNumberUtil } from "google-libphonenumber";
 import DatePicker from "react-datepicker";
 import { differenceInDays } from "date-fns";
-
+import validatePhoneNumber from "./utils";
 import "react-datepicker/dist/react-datepicker.css";
 import s from "./Form.module.css";
 
@@ -11,16 +10,6 @@ function daysUntilBirthday(date: Date) {
   const birthday = new Date(date);
   const diff = differenceInDays(birthday, now);
   return diff;
-}
-
-function validatePhoneNumber(value: string) {
-  const instance = PhoneNumberUtil.getInstance();
-  try {
-    const phoneNumber = instance.parseAndKeepRawInput(value, "IS");
-    return instance.isValidNumberForRegion(phoneNumber as PhoneNumber, "IS");
-  } catch (e) {
-    return false;
-  }
 }
 
 const Form = () => {
