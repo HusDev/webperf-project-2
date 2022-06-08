@@ -13,7 +13,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  transition: background 5s;
+  transition: opacity 5s;
 }
 
 .turret {
@@ -32,7 +32,7 @@
 /* wheels */
 .turret::before,
 .turret::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 20px;
   height: 20px;
@@ -94,6 +94,7 @@
 .entity {
   position: absolute;
   will-change: transform; /* for performance */
+  contain: strict;
 }
 
 .entityShot {
@@ -102,6 +103,7 @@
   margin: -6px 0 0 -6px;
   border-radius: 50%;
   background: #ffa500;
+  contain: strict;
 }
 
 .entityEnemy {
@@ -109,20 +111,25 @@
   height: 40px;
   margin: -20px 0 0 -30px;
   background: #ffffff;
+  contain: strict;
 }
 
 .entityEnemyRed {
   background: #ff0000;
+  contain: strict;
 }
 
 .entityEnemyGreen {
   background: #00ff00;
+  contain: strict;
 }
 
 .entityEnemyPurple {
   background: #ff00ff;
+  contain: strict;
 }
 
 .entityEnemyBlue {
   background: #0000ff;
+  contain: strict;
 }
